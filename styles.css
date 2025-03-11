@@ -183,3 +183,115 @@ footer {
 .social-links a:hover {
     color: #e6e1ff; /* Light lavender on hover */
 }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f3ff; /* Light lavender background */
+    color: #4a4a4a; /* Dark gray text */
+}
+
+/* Header Styles */
+header {
+    background: #6d5b97; /* Lavender header */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #6d5b97; /* Lavender heading */
+}
+
+section h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #6d5b97; /* Lavender heading */
+}
+
+section p {
+    margin: 0.5rem 0;
+    color: #4a4a4a; /* Dark gray text */
+}
+
+section ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+section ul li {
+    margin: 0.5rem 0;
+}
+
+/* Links */
+a {
+    color: #6d5b97; /* Lavender links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: #6d5b97; /* Lavender footer */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #e6e1ff; /* Light lavender on hover */
+}
